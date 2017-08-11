@@ -3,6 +3,7 @@
 Features:
  * ABI JSON: Include new field ``statemutability`` with values ``view``, ``nonpayable`` and ``payable``.
  * Parser: Display previous visibility specifier in error if multiple are found.
+ * Analyzer: Experimental partial support for Z3 SMT checker.
  * Syntax Checker: Support ``pragma experimental <feature>;`` to turn on experimental features.
  * Static Analyzer: Warn about large storage structures.
  * Metadata: Store experimental flag in metadata CBOR.
